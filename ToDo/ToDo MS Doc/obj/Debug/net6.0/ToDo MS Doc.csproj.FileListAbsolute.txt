@@ -1,0 +1,33 @@
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\appsettings.Development.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\appsettings.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\ToDo MS Doc.exe
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\ToDo MS Doc.deps.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\ToDo MS Doc.runtimeconfig.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\ToDo MS Doc.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\ToDo MS Doc.pdb
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.csproj.AssemblyReference.cache
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.AssemblyInfoInputs.cache
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.AssemblyInfo.cs
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.csproj.CoreCompileInputs.cache
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.MvcApplicationPartsAssemblyInfo.cs
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.MvcApplicationPartsAssemblyInfo.cache
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\staticwebassets.build.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\staticwebassets.development.json
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\scopedcss\bundle\ToDo MS Doc.styles.css
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.csproj.CopyComplete
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\refint\ToDo MS Doc.dll
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.pdb
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ToDo MS Doc.genruntimeconfig.cache
+D:\Repo\RoadMap Casero\ToDo\ToDo MS Doc\obj\Debug\net6.0\ref\ToDo MS Doc.dll
