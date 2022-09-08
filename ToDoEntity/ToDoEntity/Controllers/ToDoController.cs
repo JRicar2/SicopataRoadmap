@@ -8,23 +8,23 @@ namespace ToDoEntity.Controllers
     [ApiController]
     public class ToDoController : ControllerBase
     {
-        private static List<ToDo> todo = new List<ToDo>
-        {
-            new ToDo { Id = 1, Name ="Completar Crud", Description="Completar este crud usando Entity", isDeleted=false, isComplete = false},
-            new ToDo { Id = 2, Name ="Post", Description="Probar Post", isDeleted=false, isComplete = true}
+        private readonly ToDoDBContext context;
 
-        };
+        public ToDoController(ToDoDBContext context)
+        {
+            this.context = context;
+        }
 
         [HttpGet]
         public async Task<ActionResult<List<ToDo>>> Get()
         {
-            return Ok(todo);
+            return Ok(await context.Tasks.ToListAsync());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<ToDo>> Get(int id)
         {
-            var task = todo.Find(t => t.Id == id);
+            var task = await context.Tasks.FindAsync(id);
             if (task == null)
             {
                 return BadRequest("Tarea no encontrada.");
@@ -35,36 +35,40 @@ namespace ToDoEntity.Controllers
         [HttpPost]
         public async Task<ActionResult<List<ToDo>>> AddToDo([FromBody] ToDo task)
         {
-            todo.Add(task);
-            return Ok(todo);
+            context.Tasks.Add(task);
+            await context.SaveChangesAsync();
+            return Ok(await context.Tasks.ToListAsync());
         }
 
         [HttpPut]
         public async Task<ActionResult<ToDo>> UpdateToDo([FromBody] ToDo request)
         {
-            var task = todo.Find(t => t.Id == request.Id);
-            if (task == null)
+            var dbTask = await context.Tasks.FindAsync(request.Id);
+            if (dbTask == null)
             {
                 return BadRequest("Tarea no encontrada.");
             }
-            task.Name = request.Name;
-            task.Description = request.Description;
-            task.isComplete = request.isComplete;
-            task.isDeleted = request.isDeleted;
+            dbTask.Name = request.Name;
+            dbTask.Description = request.Description;
+            dbTask.isComplete = request.isComplete;
+            dbTask.isDeleted = request.isDeleted;
+            await context.SaveChangesAsync();
+
             return Ok("Tarea actualizada");
         }
 
-        [HttpDelete("{name}")]
-        public async Task<ActionResult<List<ToDo>>> DeleteToDo(string name)
+        [HttpDelete("id")]
+        public async Task<ActionResult<List<ToDo>>> DeleteToDo(int id)
         {
-            var task = todo.Find(t => t.Name == name);
-            if (task == null)
+            var dbTask =await context.Tasks.FindAsync(id);
+            if (dbTask == null)
             {
                 return BadRequest("Tarea no encontrada.");
             }
 
-            todo.Remove(task);
-            return Ok(todo);
+            context.Tasks.Remove(dbTask);
+            await context.SaveChangesAsync();
+            return Ok(await context.Tasks.ToListAsync());
         }
     }
 }
